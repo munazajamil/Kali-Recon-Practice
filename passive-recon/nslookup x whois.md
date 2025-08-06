@@ -1,16 +1,22 @@
 -  Tool: nslookup & whois
 
-## 📌 Purpose
-Used to query DNS and find domain-to-IP mappings.
+- Purpose:
+Used to query DNS, server and find domain-to-IP address. 
 
-## ⚙️ Command Used
-```bash
-nslookup example.com
+- Command Used:
 
-Output Summary
+nslookup certifiedhacker.com
+whois certifiedhacker.com
+nslookup -query=ns certifiedhacker.com 
+nslookup -query=mx certifiedhacker.com 
+
+
+- Output:
+  
 Found A record: 192.168.1.1
-
 Identified nameservers and mail servers
+Host name of servwers
 
-💡 Notes
+
+-  Note:
 Helpful to understand DNS structure of the target domain.
