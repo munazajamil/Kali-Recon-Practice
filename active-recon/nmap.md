@@ -14,7 +14,7 @@ NMAP -Os certifiedhacker.com
 -  Output:
   
 Port 22: SSH (Open)
-Port 80: HTTP (Apache 2.4)
+Port 80: HTTP 
 Port 443: HTTPS
 
 -  Screenshots:
